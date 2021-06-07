@@ -2,7 +2,7 @@
 import random
 num=random.randint(0,50)
 i=1
-x=500
+x=200
 while i <=10 and x>=20:
     number=input("请输入您要猜的数：")
     number = int(number)
