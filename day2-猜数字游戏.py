@@ -2,7 +2,7 @@
 import random
 num=random.randint(0,50)
 i=1
-x=200
+x=500
 while i <=10 and x>=20:
     number=input("请输入您要猜的数：")
     number = int(number)
@@ -17,13 +17,8 @@ while i <=10 and x>=20:
     else:
         print("恭喜猜中！本次数字为：",num)
         x=x+30
-        i=0
-        i=i+1
+        break
 if i>10:
     print("本次次数用完，系统已锁定")
 if x<20:
     print("金币不足")
-
-
-
-
