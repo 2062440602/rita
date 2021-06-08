@@ -1,0 +1,14 @@
+#A=56
+#B=78
+#实现效果：
+#A=78
+#B=56
+print("有以下两个数，使用+，-号实现两个数的调换")
+a=input("a:")
+a=int(a)
+b=input("b:")
+b=int(b)
+a=b-22
+b=a+22
+print("a:",b)
+print("b:",a)
