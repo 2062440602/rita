@@ -27,21 +27,10 @@ shop=[
 ]
 mycart = []
 
-#print("商城给您送福利啦！")
-#i=0
-#while i<5:
-    #import random
-    #num = random.randint(0, 8)
-    #name = random.randint(0, 7)
-    #print("恭喜您获得",shop[name][0],num,"折优惠")
-    #i=i+1
-#print("------------------------------------------")
 salary =  input("请输入您的余额:")
 salary = int(salary)
 money=salary
 
-#for index, value in enumerate(shop):
-   # print(index, value)
 while True:
     name = input("请输入您要的商品编号：")
     if name.isdigit():
