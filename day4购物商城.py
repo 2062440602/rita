@@ -27,8 +27,17 @@ shop=[
 ]
 mycart = []
 
-salary =  input("请输入您的余额:")
-salary = int(salary)
+while True:
+    salary =  input("请输入您的余额:")
+    if salary.isdigit():
+        salary = int(salary)
+        if salary<=0:
+            print("对不起，您的输入无效，请重新输入！")
+        else:
+            break
+    else:
+        print("对不起，您的输入无效，请重新输入！")
+
 money=salary
 
 while True:
